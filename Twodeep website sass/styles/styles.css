@@ -1,0 +1,119 @@
+body {
+  margin: 25px;
+  background-image: url(../pics/twodeep5.jpg);
+  color: #dbd5d5;
+  text-shadow: 4px 4px 8px #000;
+}
+
+header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  font-family: helvetica;
+  text-shadow: 6px 6px 12px #000;
+}
+
+.bio h2 {
+  font-size: 35px;
+  font-family: helvetica;
+  text-shadow: 6px 6px 12px #000;
+}
+
+.bio p {
+  font-size: 24px;
+  font-family: helvetica;
+  font-style: oblique;
+}
+
+.discog {
+  display: block;
+}
+
+.discog .spoti {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.discog .discography .subtitle {
+  font-size: 35px;
+  font-family: helvetica;
+  text-align: right;
+}
+
+.discog .discography h1 {
+  text-align: right;
+  text-shadow: 6px 6px 12px #000;
+}
+
+.discog .discography ul {
+  list-style: none;
+}
+
+.discog .discography li {
+  font-size: 24px;
+  font-family: helvetica;
+  font-style: oblique;
+}
+
+.podcasts h1 {
+  font-family: helvetica;
+  font-size: 35px;
+  text-shadow: 6px 6px 12px #000;
+}
+
+.podcasts p {
+  font-size: 24px;
+  font-family: helvetica;
+  font-style: oblique;
+}
+
+.form {
+  width: 315px;
+}
+
+.form h2 {
+  font-family: helvetica;
+  font-size: 35px;
+  text-shadow: 6px 6px 12px #000;
+  text-align: right;
+}
+
+.form p {
+  font-size: 24px;
+  font-family: helvetica;
+  font-style: oblique;
+}
+
+.form button {
+  font-family: helvetica;
+  font-size: 24px;
+  font-style: oblique;
+}
+
+footer .containersocial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer p {
+  font-size: 24px;
+  font-family: helvetica;
+  font-style: oblique;
+  text-align: center;
+}
+
+footer .soundcloud {
+  margin-top: -20px;
+}
+/*# sourceMappingURL=styles.css.map */

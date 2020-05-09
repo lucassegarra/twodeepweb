@@ -1,0 +1,146 @@
+$title: 60px;
+$subtitle: 35px;
+$text: 24px;
+$font: helvetica;
+$bold: bold;
+$oblique: oblique;
+$shadowtitle: 6px 6px 12px #000;
+$shadowtext: 4px 4px 8px #000;
+
+ 
+
+
+
+body{
+    margin: 25px;
+    background-image: url(../pics/twodeep5.jpg) ;
+    color: #dbd5d5;
+    text-shadow: $shadowtext;
+    
+    
+}
+
+    
+header{
+        h1{
+            display: flex;
+            justify-content: center;
+            font-size: $title;
+            font-family: $font;
+            text-shadow: $shadowtitle
+        }
+}
+
+.bio{
+    h2{
+        font-size: $subtitle;
+        font-family: $font;
+        text-shadow: $shadowtitle;
+    }
+     
+    p{
+        font-size: $text;
+        font-family: $font;
+        font-style: $oblique;
+
+    }
+}
+
+.discog{
+    display: block;
+
+    
+
+    .spoti{
+        align-items: center;
+    
+    }
+
+    .discography{
+        .subtitle{
+            font-size: $subtitle;
+            font-family: $font;
+            text-align: right;
+        }
+
+        h1{
+            text-align: right;
+            text-shadow: $shadowtitle;
+        }
+
+        ul{
+            list-style: none;
+        }
+        li{
+            font-size: $text;
+            font-family: $font;
+            font-style: $oblique;
+        }
+    }
+}
+
+.podcasts{
+    
+    h1{
+        font-family: $font;
+        font-size: $subtitle;
+        text-shadow: $shadowtitle;
+    }
+
+    p{
+        font-size: $text;
+        font-family: $font;
+        font-style: $oblique;
+    }
+}
+
+
+.form{
+        
+        width: 315px;
+
+
+    h2{
+        font-family: $font;
+        font-size: $subtitle;
+        text-shadow: $shadowtitle;
+        text-align: right;
+    }
+    
+    p{
+        font-size: $text;
+        font-family: $font;
+        font-style: $oblique;  
+    }
+    
+    button{
+        font-family: $font;
+        font-size: $text;
+        font-style: $oblique;
+    }
+}
+
+footer{
+
+    .containersocial{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around ;
+    }
+    p{
+        font-size: $text;
+        font-family: $font;
+        font-style: $oblique;
+        text-align: center  ; 
+    }
+    
+    .soundcloud{
+        margin-top: -20px;
+    }
+}
+
+
+
+    
+
+
